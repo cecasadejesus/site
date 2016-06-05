@@ -29,7 +29,6 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
 <?php wp_head(); ?>
-<script src="<?php echo get_template_directory_uri(); ?>/js/zika.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
