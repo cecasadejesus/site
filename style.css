@@ -499,7 +499,7 @@ a:hover {
 }
 
 body {
-	background: #fff url("images/fundo-nuvens.jpg") repeat-x 50% 0;
+	background: #fff url("images/fundo-nuvens.jpg") repeat-x 50% -140px;
 }
 
 body .site {
@@ -1489,7 +1489,7 @@ img#wpstats {
 		height: 110px;
 		position: absolute;
     	top: 9em;
-		right: 6em;
+		right: 14em;
 	}
 
 	.site-header h1 {
@@ -1924,4 +1924,14 @@ img#wpstats {
 
 .home .entry-content .estudos h2 {
 	border-bottom-color: #ededed;
+}
+
+.entry-content table.escala-palestras {
+	font-size: 1rem;
+	margin-left: 20px;
+    width: 90%;
+}
+
+.entry-content table.escala-palestras caption {
+	font-size: 1.2rem;
 }
