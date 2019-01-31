@@ -21,5 +21,15 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+
+<!-- Etiqueta global do site (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-24155265-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-24155265-1');
+</script>
 </body>
 </html>

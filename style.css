@@ -1511,7 +1511,7 @@ img#wpstats {
 		border-top: 0;
 		display: flex;
 		width: 100%;
-		max-width: 1200px;
+		max-width: 1190px;
 		justify-content: center;
 	}
 
@@ -1534,6 +1534,8 @@ img#wpstats {
 		padding: 0 14px;
 		transition: 300ms linear;
 	}
+
+	.main-navigation .current-menu-item > a,
 	.main-navigation li a:hover {
 		color: #666600;
 		background: rgba(255,255,255,0.5);
@@ -1542,7 +1544,6 @@ img#wpstats {
 	.main-navigation li {
 		margin: 0;
 		position: relative;
-		/* background: red; */
 	}
 	.main-navigation li ul {
 		display: none;
@@ -1577,7 +1578,7 @@ img#wpstats {
 		background: #e3e3e3;
 		color: #666600;
 	}
-	.main-navigation .current-menu-item > a,
+	
 	.main-navigation .current-menu-ancestor > a,
 	.main-navigation .current_page_item > a,
 	.main-navigation .current_page_ancestor > a {
