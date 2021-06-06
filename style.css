@@ -501,8 +501,6 @@ body {
 }
 
 body .site {
-	background: url("images/banner-casa-de-jesus-2019.png") no-repeat 50% 0,
-				url("images/footer.jpg") no-repeat 50% 100%;
 	position: relative;
 }
 
@@ -559,56 +557,19 @@ footer[role="contentinfo"] {
 /* Page structure */
 .site {}
 
-.site-content {
-	margin: 24px 0 0;
-	margin: 1.714285714rem 0 0;
-}
 .widget-area {
 	margin: 24px 0 0;
 	margin: 1.714285714rem 0 0;
 }
 
 /* Header */
-.site-header {
-	padding: 1rem 0 0;
-}
-
-.site-header h1,
-.site-header h2 {
+.site-header .logo-cj {
 	display: block;
-	text-align: center;
-}
-.site-header h1 a,
-.site-header h2 {
-	color: #fff;
-	font-family: Georgia;
-	font-style: italic;
-	font-weight: normal;
-	text-decoration: none;
-	text-shadow: 0 2px 1px #111;
-}
-.site-header h1 a:hover,
-.site-header h2 a:hover {}
-.site-header h2 {
-	font-size: 20px;
-	letter-spacing: 0.13em;
-	text-shadow: 0 2px 1px #111;
-}
-.site-header h3 {
-	color: #fff;
-	font-weight: normal;
-	text-shadow: 0 2px 1px #111;
-}
-.header-image {
-	margin-top: 24px;
-	margin-top: 1.714285714rem;
+	max-width: 100%;
+	margin: 20px auto 0;
 }
 
 /* Navigation Menu */
-.main-navigation {
-	margin: 11rem auto 0;
-}
-
 .main-navigation ul.nav-menu {
 	background: rgba(228,219,191,1);
 	margin: 0 auto;
@@ -1457,14 +1418,28 @@ img#wpstats {
 		width: 80%;
 	}
 	.site {
+		background: url(images/banner-casa-de-jesus-2019.png) no-repeat 50% 0, url(images/footer.jpg) no-repeat 50% 100%;
 		margin: 0 auto;
 		overflow: hidden;
 	}
+
+	h1.site-title {
+    	height: 260px;
+	}
+
+	.site-header .logo-cj {
+    	width: 250px;
+    	position: relative;
+    	right: 110px;
+	}
+
 	.site-content {
 		float: left;
 		width: calc(100% - 320px);
 		padding-left: 1em;
+		margin: 24px 0 0;
 	}
+
 	body.template-front-page .site-content,
 	body.single-attachment .site-content,
 	body.full-width .site-content {
@@ -1473,41 +1448,7 @@ img#wpstats {
 
 	.widget-area {
 		float: right;
-		width: 230px;
-	}
-
-	.site-header hgroup{
-		display: block;
-		width: 100%;
-		max-width: 1200px;
-		margin: 0 auto;
-		position: relative;
-	}
-
-
-	.site-header hgroup:after{
-		content: '';
-		background: url('https://www.casadejesus.org.br/wp-content/uploads/2020/06/CECJ-medalha66anos.png') no-repeat 0 0;
-		background-size: contain;
-		display: block;
-		width: 107px;
-		height: 110px;
-		position: absolute;
-    	top: 9em;
-		right: 14em;
-	}
-
-	.site-header h1 {
-		font-size: 36px;
-		margin-bottom: 10px;
-	}
-
-	.site-header h2 {
-		margin-bottom: 10px;
-	}
-	.site-header h3 {
-		text-align: center;
-		padding-left: 386px;
+		width: 250px;
 	}
 
 	.main-navigation ul.nav-menu,
@@ -1700,25 +1641,13 @@ img#wpstats {
 		max-width: 100%;
 		position: relative !important;
 	}
+
 	.site-header {
 		margin-bottom: 72px;
 		margin-bottom: 5.142857143rem;
 		text-align: left;
 	}
-	.site-header h1 {
-		font-size: 21pt;
-		line-height: 1;
-		text-align: left;
-	}
-	.site-header h2 {
-		color: #000;
-		font-size: 10pt;
-		text-align: left;
-	}
-	.site-header h1 a,
-	.site-header h2 a {
-		color: #000;
-	}
+
 	.author-avatar,
 	#colophon,
 	#respond,
@@ -1857,7 +1786,7 @@ img#wpstats {
 	}
 
 	.main-navigation {
-		margin-top: 12rem;
+		margin-top: 10px;
 		border-radius: 0;
 		background: rgba(228,219,191,1);
 	}
@@ -1885,11 +1814,8 @@ img#wpstats {
 		border-bottom: 1px solid #fff;
 		border-top: 1px solid #666600;
 		display: block;
-		padding: 20px;
-		font-size: 1.5rem;
+		padding: 10px;
 		text-decoration: none;
-		color: #fff;
-		text-shadow: 0px 1px 2px #666600;
 	}
 
 	.main-navigation a:active,
