@@ -1865,6 +1865,10 @@ img#wpstats {
 	font-size: 1.2rem;
 }
 
+.escala-palestras th:nth-child(2) {
+    width: 90px;
+}
+
 .escala-palestras span.chip {
     font-size: .7rem;
     background-color: gold;
