@@ -2,7 +2,6 @@
 Theme Name: Centro Espírita Casa de Jesus 2013
 Theme URI: http://www.casadejesus.org.br
 Author: Vanessa Me Tonini
-Author URI: http://www.vanessametonini.com.br/
 Description: This theme is a new version, specially to celebrate the 59 years of this foundation
 Version: 1.0
 License: GNU General Public License v2 or later
@@ -1859,9 +1858,7 @@ img#wpstats {
 }
 
 .entry-content table.escala-palestras {
-	font-size: 1rem;
-	margin-left: 20px;
-    width: 90%;
+  font-size: 1rem;
 }
 
 .entry-content table.escala-palestras caption {
