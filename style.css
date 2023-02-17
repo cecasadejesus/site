@@ -1865,6 +1865,14 @@ img#wpstats {
 	font-size: 1.2rem;
 }
 
+.escala-palestras span.chip {
+    font-size: .7rem;
+    background-color: gold;
+    border-radius: 10px;
+    padding: 0 7px;
+    color: #111;
+}
+
 .hall-presidentes {
   display: grid;
   grid-gap: 10px;
